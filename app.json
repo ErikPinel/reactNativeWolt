@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "wolt",
-    "slug": "wolt",
+    "slug": "new",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ericpinel.new"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ericpinel.new"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "33964627-852c-45d3-bc7d-beb37ce8b8e7"
+      }
+    },
+    "owner": "ericpinel"
   }
 }
